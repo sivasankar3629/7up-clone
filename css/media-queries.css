@@ -1,0 +1,42 @@
+@media(max-width: 768px){
+  #first-img-md, #second-img-md, #third-img-md{
+    display: none;
+  }
+  #first-img-overlay{
+    font-size: 5.5vw
+  }
+  #header{
+    height: 76px;
+    padding: 14px;
+  }
+  #brand-logo{
+    height: 3em;
+  }
+  body{
+    margin-top: 75px;
+  }
+  #first-img-overlay{
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media(min-width: 769px){
+  #first-img-sm, #second-img-sm, #third-img-sm{
+    display: none;
+  }
+  #header{
+    height: 122px;
+    padding: 24px;
+  }
+  #brand-logo{
+    height: 4.8em;
+  }
+  #first-img-overlay{
+    justify-content: center;
+  }
+  body{
+    margin-top: 122px;
+  }
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://db.onlinewebfonts.com/c/f957ee5b11738389e5b0012a734390e6?family=Korolev+Medium"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--header-->
+    <header
+      class="container-fluid border-bottom border-white"
+      style="
+        background-color: rgba(1, 174, 69, 55);
+        position: fixed;
+        z-index: 1000;
+      "
+      id="header"
+    >
+      <div class="row">
+        <div class="col-lg-3 col-9">
+          <img src="images/logo/7up-logo-large.png" id="brand-logo" />
+        </div>
+        <div class="col-lg-9 col-3">
+          <nav class="navbar navbar-expand-lg pe-1">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler ms-auto"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                style="border: none; filter: invert(100%)"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 my-2">
+                  <li class="nav-item px-2">
+                    <a
+                      class="nav-link active text-white fs-4"
+                      aria-current="page"
+                      href="#"
+                      >PRODUCTS</a
+                    >
+                  </li>
+                  <li class="nav-item px-2">
+                    <a
+                      class="nav-link active text-white fs-4"
+                      aria-current="page"
+                      href="#"
+                      >RECIPES</a
+                    >
+                  </li>
+                  <li class="nav-item px-2">
+                    <a
+                      class="nav-link active text-white fs-4"
+                      aria-current="page"
+                      href="#"
+                      >STORES</a
+                    >
+                  </li>
+                  <li class="nav-item ps-4 pe-2">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
+                      href="#"
+                      ><img
+                        style="width: 29px"
+                        src="images/social/socialIcons_facebook.png"
+                        alt=""
+                      />
+                      <img
+                        style="width: 29px"
+                        src="images/social/socialIcons_instagram.png"
+                        alt=""
+                      />
+                      <img
+                        style="width: 29px"
+                        src="images/social/socialIcons_tiktok.png"
+                        alt=""
+                      />
+                      <img
+                        style="width: 29px"
+                        src="images/social/socialIcons_x.png"
+                        alt=""
+                      />
+                      <img
+                        style="width: 29px"
+                        src="images/social/socialIcons_youtube.png"
+                        alt=""
+                      />
+                      <img
+                        style="width: 29px"
+                        src="images/social/socialIcons_pinterest.png"
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!--contents-->
+
+    <!--first image-->
+    <div class="card text-white w-100">
+      <img
+        src="background-images/image3.png"
+        class="card-img"
+        id="first-img-md"
+      />
+      <img
+        src="background-images/sm-background/beUptimistic.png"
+        class="card-img w-100"
+        id="first-img-sm"
+      />
+      <div class="card-img-overlay d-flex flex-column" id="first-img-overlay">
+        <h1 class="card-title fw-bold" style="font-size: 5.5vw">
+          POSITIVELY <br />REFRESHING
+        </h1>
+        <p
+          class="border border-white px-3 py-2 rounded-pill"
+          style="font-size: 16px; width: 170px"
+        >
+          EXPLORE PRODUCTS
+        </p>
+      </div>
+    </div>
+
+    <!--second image-->
+    <div class="card text-white text-center">
+      <img
+        src="background-images/image2.png"
+        class="card-img"
+        id="second-img-md"
+      />
+      <img
+        src="background-images/sm-background/recipes.jpg"
+        class="card-img"
+        id="second-img-sm"
+      />
+      <div
+        class="card-img-overlay mx-auto my-auto rounded-pill col-md-5 col-10"
+        style="background-color: rgba(6, 77, 6, 0.66); height: 12rem"
+      >
+        <h1 class="card-title">RECIPES</h1>
+        <p class="card-text">
+          Bake, shake, and stir some uptimism into your day.
+        </p>
+        <p
+          class="card-text border rounded-pill mx-auto py-1 border-3"
+          style="width: 10em; font-size: 19px"
+        >
+          View Recipes
+        </p>
+      </div>
+    </div>
+
+    <!--third image-->
+    <div class="card text-white text-center">
+      <img
+        src="background-images/image1.png"
+        class="card-img"
+        id="third-img-md"
+      />
+      <img
+        src="background-images/sm-background/storeLocator.jpg"
+        class="card-img"
+        id="third-img-sm"
+      />
+      <div
+        class="card-img-overlay mx-auto my-auto rounded-pill col-md-5 col-10"
+        style="background-color: rgba(6, 77, 6, 0.66); height: 12rem"
+      >
+        <h1 class="card-title">STORE LOCATION</h1>
+        <p class="card-text">
+          Find your favourite flavors of uptimism and keep your glass half-full
+        </p>
+        <p
+          class="card-text border rounded-pill mx-auto py-1 border-3"
+          style="width: 10em; font-size: 19px"
+        >
+          Find Products
+        </p>
+      </div>
+    </div>
+
+    <!--footer-->
+    <footer
+      class="container-fluid text-white mx-auto"
+      style="background-color: rgb(62, 62, 62); padding: 0px 15px 48px"
+      id="footer"
+    >
+      <div style="padding: 15px">
+        <div
+          class="container-fluid text-wrap text-center"
+          style="max-width: 870px; margin-bottom: 12px"
+        >
+          <p>Privacy Policy</p>
+          <p>CA Privacy Rights</p>
+          <p>Do Not Sell or Share My Personal Information</p>
+          <p>Terms of Use</p>
+          <p>Accessibility</p>
+          <p>Contact</p>
+          <p>FAQ</p>
+          <p>Careers</p>
+        </div>
+        <p class="text-center d-block" style="padding-top: 9px">
+          7UP and BE UPTIMISTIC are trademarks of Dr Pepper/Seven Up, Inc.
+          &copy; 2024 Dr Pepper/Seven Up, Inc.
+        </p>
+      </div>
+    </footer>
+
+    <!--bootstrap js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/css/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+  </body>
+</html>

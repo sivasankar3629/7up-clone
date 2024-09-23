@@ -1,0 +1,23 @@
+body{
+  font-family: Korolev Medium; 
+
+}
+
+.navbar{
+  padding: 0;
+
+}
+
+.navbar .container {
+  max-width: 100%; 
+} 
+
+#header {
+  top: 0;
+}
+
+#footer p {
+  padding: 0px 13px;
+  font-size: 11px;
+  display: inline;
+}
